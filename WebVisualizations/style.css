@@ -1,0 +1,52 @@
+body {
+    background: #f1f1f1;
+  }
+  @media (max-width: 992px) {
+    #myNavBar {
+      background-color: yellow !important;
+    }
+  }
+  h2 {
+    font-size: 30px;
+    color: teal;
+  }
+  h3 {
+    font-size: 25px;
+    color: teal;
+  }
+  body.fig1 img.fig1,
+  body.fig2 img.fig2,
+  body.fig3 img.fig3,
+  body.fig4 img.fig4 {
+    border: 1px solid teal;
+  }
+  
+  /* Giving our navbar some padding and a background color */
+  
+  .navbar-brand {
+    background: teal;
+    color: whitesmoke !important;
+    padding: 5px;
+  }
+  
+  .navbar {
+    padding: 10px;
+    background: whitesmoke;
+  }
+   .whitebox  {
+     background-color: white;
+     margin-top: 20px;
+     padding: 20px;
+   }
+  /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+  .navbar li {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 3px;
+  }
+  
+ 
